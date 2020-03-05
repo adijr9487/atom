@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+}
+
+.main {
+    display: inline-block;
+    margin: 200px 0 0 0;
+    background-color: rgb(245, 106, 106);;
+    text-align: center;
+    width: 600px;
+}
+.nucleus {
+    display: inline-block;
+    border-radius: 100%;
+    background-color: rgb(94, 94, 216);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.len {
+    display: inline-block; 
+    height: 20px;
+    width: 600px;    
+    
+    margin-top: 95px;
+    margin-left: -200px;
+    position: absolute;
+    animation: rota 50s linear infinite;
+}
+.le {
+    background-color: blanchedalmond;
+}
+.e {
+    margin: 0 0 0 5px;
+    height: 20px;
+    width: 20px; 
+    border-radius: 100%;
+    background-color: crimson;
+}
+@keyframes rota{
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.len:nth-child(2)
+{
+    animation-delay: 4s;
+}
+.len:nth-child(3)
+{
+    animation-delay: 8s;
+}
+.len:nth-child(4)
+{
+    animation-delay: 12s;
+}
+.len:nth-child(5)
+{
+    animation-delay: 16 s;
+}
+
+button {
+ height: 20px;
+ width: 60px;
+ color: white;
+ background-color: yellowgreen;
+}
